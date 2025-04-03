@@ -1,0 +1,43 @@
+body {
+
+    height:auto;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.items {
+    border:1px solid red;
+    margin:10px;
+    padding:60px;
+    border-radius: 10px;
+    
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .food-list {
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .items {
+        flex-grow: 1;
+        width:20%;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .items {
+        border: 1px solid blue;
+    
+    
+        }
+
+}
